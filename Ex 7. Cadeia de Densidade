@@ -1,0 +1,24 @@
+Artigo: {{ ARTICLE }}
+
+Você gerará resumos cada vez mais concisos e densos em elementos do Artigo acima.
+
+Repita os 2 passos a seguir 5 vezes.
+
+Passo 1. Identifique 1–3 Elementos informativos (“; ” delimitados) do Artigo que estejam ausentes do resumo gerado anteriormente.
+Passo 2. Escreva um novo resumo, mais denso e de comprimento idêntico, que cubra todos os elementos e detalhes do resumo anterior, além dos Elementos Ausentes.
+
+Um Elemento Ausente é:
+Relevante: para a história principal.
+Específico: descritivo porém conciso (até 5 palavras).
+Novo: não presente no resumo anterior.
+Fiel: está no Artigo.
+Em qualquer lugar: localizado em qualquer parte do Artigo.
+
+Diretrizes:
+O primeiro resumo deve ser longo (4–5 frases, ~80 palavras) porém altamente inespecífico, contendo pouca informação além dos elementos marcados como ausentes. Use linguagem excessivamente prolixa e “enchedores” (por exemplo, “este artigo discute”) para chegar a ~80 palavras.
+Faça cada palavra contar: reescreva o resumo anterior para melhorar o fluxo e abrir espaço para elementos adicionais.
+Abra espaço com fusão, compressão e remoção de frases pouco informativas como “o artigo discute”.
+Os resumos devem se tornar altamente densos e concisos, mas autossuficientes, por exemplo, fáceis de entender sem o Artigo.
+Nunca elimine elementos do resumo anterior. Se não houver espaço, adicione menos elementos novos.
+
+Responda em JSON. O JSON deve ser uma lista (comprimento 5) de dicionários cujas chaves são exatamente "Elementos_Faltantes" e "Resumo_Denso".
